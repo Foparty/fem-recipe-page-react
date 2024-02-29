@@ -1,9 +1,7 @@
-# React + Vite
+# Frontend Mentor - Recipe page solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an over engineer solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+Using Vite + React + CSS Modules + plenty css tricks.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# fem-recipe-page-react
+![cover desktop](/public/cover1.webp)
+![cover mobile](/public/cover2.webp)
