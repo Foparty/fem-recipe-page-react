@@ -1,0 +1,73 @@
+.container {
+	width: min(46rem, 100%);
+	margin-inline: auto;
+	min-height: 100vh;
+	background-color: var(--bg);
+	@media (width > 46rem) {
+		margin: 6rem auto;
+		border-radius: 0.8rem;
+		padding: 2rem;
+	}
+}
+
+.contentContainer {
+	padding: 0 2rem;
+}
+
+.contentContainer h2 {
+	color: var(--nut);
+}
+
+.contentContainer section {
+	padding: 2rem 0;
+}
+
+.contentContainer section:not(:last-child) {
+	border-bottom: 1px solid;
+	border-color: var(--nut);
+}
+
+.contentContainer section ul {
+	padding: 2rem 3rem 0 3rem;
+}
+.preparationCard {
+	background-color: var(--bgcard);
+	padding: 2rem;
+	margin: 1rem 0;
+	border-radius: 0.8rem;
+}
+
+.preparationCard > * {
+	color: var(--dark);
+}
+
+.instructions ol li {
+	font-weight: bolder;
+}
+
+.instructions ol span {
+	padding-left: 0.5rem;
+	font-weight: 400;
+}
+
+.nutrition p:first-of-type {
+	padding-top: 2rem;
+	font-size: 1rem;
+}
+
+.nutritable {
+	width: 100%;
+	margin-top: 2rem;
+	border-collapse: collapse;
+}
+
+.nutritable tr {
+	height: 3rem;
+}
+.nutritable tr:not(:last-child) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nutritype {
+	padding-left: 2rem;
+}

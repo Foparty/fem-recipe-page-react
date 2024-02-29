@@ -1,0 +1,14 @@
+.heading {
+	line-height: 0.9;
+}
+.heading:where(h1) {
+	font-family: var(--ffprimary);
+	padding: 2rem 0;
+	font-size: clamp(1rem, 4vw + 1rem, 3.2rem);
+}
+.heading:where(h2) {
+	font-family: var(--ffprimary);
+	font-size: clamp(1rem, 4vw + 1rem, 2.5rem);
+}
+.heading:where(h3) {
+}

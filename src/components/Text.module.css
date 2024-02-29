@@ -1,0 +1,7 @@
+.text {
+	text-wrap: pretty;
+}
+.text:where(p) {
+	line-height: 1.2;
+	font-size: clamp(1rem, 1vw + 1rem, 1.2rem);
+}

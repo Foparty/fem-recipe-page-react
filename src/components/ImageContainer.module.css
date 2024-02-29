@@ -1,0 +1,10 @@
+.img {
+	object-fit: cover;
+	margin-inline: auto;
+}
+
+.img > img {
+	@media (width > 46rem) {
+		border-radius: 0.8rem;
+	}
+}

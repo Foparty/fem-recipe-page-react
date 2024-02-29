@@ -1,0 +1,16 @@
+.item {
+	color: var(--dark);
+	padding-left: 1rem;
+}
+
+.item strong {
+	color: var(--darktext);
+}
+
+.item span {
+	color: var(--darktext);
+}
+
+.item + .item {
+	margin-top: 1rem;
+}
