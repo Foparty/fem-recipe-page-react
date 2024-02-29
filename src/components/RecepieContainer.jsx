@@ -20,8 +20,8 @@ const RecepieContainer = ({ children }) => {
 					<List type={'ul'}>
 						{recepie.preparationTime.map((item, index) => (
 							<ListItem key={index}>
-								<strong>{item.title}: </strong>
-								<span>{item.text}</span>
+								<Text tag={'strong'}>{item.title}: </Text>
+								<Text tag={'span'}>{item.text}</Text>
 							</ListItem>
 						))}
 					</List>
@@ -31,7 +31,7 @@ const RecepieContainer = ({ children }) => {
 					<List type={'ul'}>
 						{recepie.ingrediens.map((item, index) => (
 							<ListItem key={index}>
-								<span>{item.text}</span>
+								<Text tag={'span'}>{item.text}</Text>
 							</ListItem>
 						))}
 					</List>
@@ -41,8 +41,8 @@ const RecepieContainer = ({ children }) => {
 					<List type={'ol'}>
 						{recepie.instructions.map((item, index) => (
 							<ListItem key={index}>
-								<strong>{item.title}</strong>
-								<span>{item.text}</span>
+								<Text tag={'strong'}>{item.title}</Text>
+								<Text tag={'span'}>{item.text}</Text>
 							</ListItem>
 						))}
 					</List>

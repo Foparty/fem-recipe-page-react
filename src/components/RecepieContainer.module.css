@@ -71,3 +71,8 @@
 .nutritype {
 	padding-left: 2rem;
 }
+
+.nutridata {
+	color: var(--dark);
+	font-weight: 700;
+}
